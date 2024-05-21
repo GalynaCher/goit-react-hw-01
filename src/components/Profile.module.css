@@ -1,0 +1,47 @@
+.contacts {
+    margin: 45px 0;
+}
+
+.thumb {
+    border-radius: 50%;
+    width: 400px;
+    background-color: rgb(50, 47, 47);
+}
+
+.name {
+    font-weight: 650;
+    font-size: 95px;
+    margin: 30px;
+}
+
+.tag,
+.location {
+    font-size: 70px;
+    margin: 0;
+    color: rgb(109, 106, 106);
+}
+
+.stats {
+    display: flex;
+    font-size: 65px;
+    justify-content: space-evenly;
+    border-top: 5px solid gray;
+    background-color: lightgray;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    width: 33.33%;
+    padding: 20px 0;
+    font-size: 60px;
+}
+
+li:nth-child(2) {
+    border-left: 5px solid gray;
+    border-right: 5px solid gray;
+}
+
+li>span:nth-child(2) {
+    font-weight: bold;
+}
