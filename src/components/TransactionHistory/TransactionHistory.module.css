@@ -1,0 +1,32 @@
+.transTable {
+    font-size: 60px;
+    width: 100%;
+    margin: 0 0 70px;
+    line-height: 2;
+    /* To be sure the borders are displayed correctly */
+    border-collapse: collapse;
+}
+
+.transThead {
+    background-color: rgba(0, 0, 0, 0.797);
+}
+
+.transThead th {
+    font-weight: 500;
+    color: white;
+}
+
+.transBodyTr {
+    border: 5px solid;
+    /* font-weight: 400; */
+}
+
+.transBodyTr:nth-child(even) {
+    background-color: lightgray;
+}
+
+.transTable th,
+.transTable td {
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+}
