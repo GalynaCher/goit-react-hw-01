@@ -1,7 +1,10 @@
 /* eslint-disable no-mixed-spaces-and-tabs */
 
-import userData from "./userData.json";
-import Profile from './Profile';
+import userData from "./Profile/userData.json";
+import Profile from './Profile/Profile';
+ 
+import friends from "./FriendList/friends.json";
+import FriendList from "./FriendList/FriendList";
 
 export default function App() {
   return (
@@ -13,6 +16,7 @@ export default function App() {
         image={userData.avatar}
         stats={userData.stats}
       />
+       <FriendList friends={friends} />
     </>
   );
 }

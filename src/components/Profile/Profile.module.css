@@ -1,3 +1,13 @@
+.profileCard {
+    border: 5px solid;
+    border-color: black;
+    border-radius: 3%;
+    overflow: hidden;
+    width: 1050px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
 .contacts {
     margin: 45px 0;
 }
@@ -37,10 +47,10 @@ li {
     font-size: 60px;
 }
 
-li:nth-child(2) {
+/* li:nth-child(2) {
     border-left: 5px solid gray;
     border-right: 5px solid gray;
-}
+} */
 
 li>span:nth-child(2) {
     font-weight: bold;

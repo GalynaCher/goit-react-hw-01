@@ -1,0 +1,26 @@
+.listUl {
+    display: flex;
+    margin: 0 auto;
+    gap: 45px;
+}
+
+.listLi {
+    width: 335px;
+    padding: 45px;
+    border: 5px solid;
+    border-color: black;
+    border-radius: 3%;
+}
+
+.listLiImg {
+    width: 100%;
+}
+
+.listLiName {
+    font-size: 80px;
+    margin: 20px 0;
+}
+
+.listLiOnl {
+    margin: 0;
+}

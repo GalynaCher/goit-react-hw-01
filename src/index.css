@@ -20,14 +20,10 @@ ol {
 }
 
 div#root {
-  width: 1050px;
+  /* width: 1050px; */
   margin: 0 auto;
   /* padding: 2rem; */
   text-align: center;
-  border: 5px solid;
-  border-color: black;
-  border-radius: 3%;
-  overflow: hidden;
 }
 
 body {
