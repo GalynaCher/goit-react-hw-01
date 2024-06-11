@@ -12,16 +12,3 @@
     border-color: black;
     border-radius: 3%;
 }
-
-.listLiImg {
-    width: 100%;
-}
-
-.listLiName {
-    font-size: 80px;
-    margin: 20px 0;
-}
-
-.listLiOnl {
-    margin: 0;
-}
